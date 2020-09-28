@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 
 const link = (props) =>{
 
-	let Listed = pages.map((e) =>{
- 		
-		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
+ 	let Listed = props.arrList.map((e) =>{
+
+ 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
 		let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
 
 		return (
@@ -17,7 +17,6 @@ const link = (props) =>{
 				</Link>	
 			</li>
 		)
-		
 	})
 
 
