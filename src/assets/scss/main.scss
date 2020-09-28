@@ -1,0 +1,157 @@
+.main-section{
+	padding: 9rem 0;
+}
+
+.wrapper-heading-content{
+  &:after{
+  	content: '';
+    width: 85px;
+    height: 2px;
+    background: #feda57;
+    position: absolute;
+    margin: 12px 0;
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 6em;
+  }
+
+}
+
+.btn-main-customize{
+    background: #292927;
+    border: none;
+    padding: 1rem 5rem;
+    margin-top: 37px;
+    a{
+    	color:#fff;
+    	background: #292927;
+	    border: none;
+	    padding: 1rem 0.8rem;
+	    margin-top: 37px;
+    }
+}
+
+.icon-auhtor{
+	img{
+		width: 62px;
+	    border-radius: 50px;
+	    border: 6px solid #cccccc;
+		margin:0;
+	}
+}
+
+.author-name-tagline{
+	position: absolute;
+    margin: 17px;
+    letter-spacing: 2px;
+    color: #deab1c;
+}
+   
+.author-fx{
+    text-transform: uppercase;
+    color: #292927;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*Main Bottom Section*/
+
+.main-bottom-section{
+    background: #eee;
+    padding: 43px;
+}
+
+.section-main-contents{
+    margin-top: 4em;
+}
+
+.main-bottom-wrapper{
+
+    padding: 3rem 0;
+    text-align: center;
+    h1{
+        &:after{
+            content: '';
+            width: 85px;
+            height: 2px;
+            background: #feda57;
+            position: absolute;
+            margin: 54px -177px;
+        }
+    }
+}
+
+.main-subcontent-fx{
+    color: #888888;
+    margin: 31px 0;
+    font-size: 16px;
+}
+
+
+/*Tiles */
+
+.tiles-height{
+    height: 250px;
+    background: #f3d09d;
+
+    img{
+        width: 250px;
+    }
+}
+
+.full-layout-boxstyle{
+    background: #ffd472;
+    padding: 20px;  
+}
+
+
+/*Overlapping Books*/
+
+.is-4by3{
+    padding-top: 89% !important;
+}
+
+
+/*icons logo*/
+.feautured-links-logo{
+
+    margin: 93px;
+    text-align: center;
+
+    li{
+
+        display: inline-block;
+        padding: 0 34px;
+
+        &:nth-child(2){
+            img{
+                position: relative;
+                top: -21px;
+            }
+        }
+
+    }
+    img{
+        width: 160px;
+        max-width: 100%;
+    }
+}
+
+.content{
+    font-size: 14px;
+    text-align: left;
+    color: #737171;
+}
+
+.btn-redirect{
+    a{
+        color: #c38a08;
+        text-transform: uppercase;
+        margin-left: 11px;
+        font-size: 11px;
+        text-decoration: underline;
+    }
+}
