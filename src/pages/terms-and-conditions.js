@@ -12,7 +12,7 @@ const TaC = (props) =>{
 		<>
 			<span className="banr-tagline-fx">Valentine Cardinale</span>
 			<h1 className="banr-header-fx">
-				Terms And
+				Terms and
 				<span className="banr-spn-highlight">Conditions</span>
 			</h1>
 		</>
