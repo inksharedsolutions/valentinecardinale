@@ -56,14 +56,13 @@ const abouttheauthor= (props) =>{
 									 </p>
 									
 										<nav className="booklinkBlocks">
-										    <span>Ebooks :</span>
+										    <span>Ebook :</span>
 											<li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/West-Side-Kid-Valentine-Cardinale-ebook/dp/B07RJZPKP1/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1557779553&sr=8-1">Amazon</a></li>
-											<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-west-side-kid/">Stratton Press</a></li>
 											<li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/west-side-kid-valentine-cardinale/1100361858?ean=9781643454917">Barnes & Noble</a></li>
 										</nav>
 
 										<nav className="booklinkBlocks">
-											<span>Purchase Paperbook :</span>
+											<span>Paperbook :</span>
 											<li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/West-Side-Kid-Valentine-Cardinale/dp/1948654725/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1557779553&sr=8-1">Amazon</a></li>
 											<li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/west-side-kid-valentine-cardinale/1100361858?ean=9781948654722">Barnes & Noble </a></li>
 											<li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/West-Side-Kid/Valentine-Cardinale/9781948654722?id=7714171848832">Books A Million</a></li>
